@@ -1,9 +1,16 @@
+/* ------------------------------------------------------------------------------
+ 	Author: WebThemez
+/* ------------------------------------------------------------------------------
+	Typography
+-------------------------------------------------------------------------------*/
+
 @import url(http://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700); 
 p {
 	font-size: 14px;
 	line-height: 22.4px;
 	color: #6c7279;
 }
+
 h1 {
 	font-size: 65px;
 	color: #2d3033;
@@ -28,6 +35,13 @@ h5 {
 	text-transform: uppercase;
 	font-weight: 700;
 }
+h6 {
+	font-size: 28px;
+	color: #2d3033;
+	font-weight: 300;
+	text-align: center;
+}
+
 .btn {
 	background-color: #000000;
 	color: rgba(255, 255, 255, 0.72);
@@ -327,7 +341,7 @@ ul li {
 -------------------------------------------------------------------------------*/
 
 .banner {
-	background-image: url(../images/BG_Long.jpg);
+	background-image: url(../images/BG);
 	background-position: center top;
 	background-repeat: no-repeat;
 	-moz-background-size: cover;
@@ -374,6 +388,13 @@ ul li {
 	margin-top: 0;
 	margin-bottom: 20px;
 	font-size: 35px;
+	font-weight: bold;
+}
+.intro h6 {
+	color: #ffffff;
+	margin-top: 0;
+	margin-bottom: 20px;
+	font-size: 50px;
 	font-weight: bold;
 }
 .intro p {
@@ -694,23 +715,35 @@ ul.list-default li {
 
 
 #tours {
-	background: #cd003a;
+	/*background: #170125;
 	padding: 80px 0px 0;
 	display: table;
 	margin: 0 auto;
 	width: 100%;
-	color: #fff;
+	color: #fff;*/
+	background-image: url(../images/luzes.JPG);
+	background-position: center top;
+	background-repeat: no-repeat;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	min-height: 750px;
 }
-#tours .section-header p {
+#tours p {
 	color: #fff;
+	font-size: 25px;
+	letter-spacing: 3px;
+	font-weight: 250;
+	line-height: 30px;
 }
-#tours h3 {
+#tours h6 {
 	color: #fff;
 	text-transform: uppercase;
-	font-size: 25px;
-	letter-spacing: 2px;
+	font-size: 45px;
+	letter-spacing: 5px;
 	font-weight: 400;
-	margin: 0px 0px 15px;
+	margin: 15px 15px 15px;
 }
 
 .tour-list {
