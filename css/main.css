@@ -330,16 +330,89 @@ ul li {
 /* ------------------------------------------------------------------------------
 	Banner
 -------------------------------------------------------------------------------*/
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 800px;
+  }
+
+@font-face {
+	font-family: "Quikhand";
+	src: url(../fonts/Quikhand.oft) format(".otf");
+}
+h1.quikhand { 
+	font-family: "Quikhand";
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url(../fonts/Lato/Lato-Light.ttf) format(".ttf");
+}
+p.lato { 
+	font-family: "Lato";
+}
+h1.lato { 
+	font-family: "Lato";
+	font-size: 20px;
+	text-align: center;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.footer-text {
+	
+	color: #fff;
+	font-weight: 700;
+	
+}
+
+.footer-text h1 {
+	
+	color: #ffffff;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 25px;
+	font-weight: 700;
+	
+}
+
+
+.footer-text a {
+	color: #ffffff;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 25px;
+	font-weight: 700;
+}
+
+.footer-text h2 {
+	
+	color: #fff;
+	font-family: "Lato", Arial, sans-serif;
+	font-size: 18px;
+}
 
 .banner {
 	background-image: url(../images/BG_Long.jpg);
-	background-position: center top;
+	background-position: center;
 	background-repeat: no-repeat;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	-webkit-background-size: cover;
 	background-size: cover;
 	min-height: 750px;
+
+
 }
 .banner-text {
 	margin-top: 38%;
@@ -353,7 +426,7 @@ ul li {
 	color: #ffffff;
 	font-family: "Open Sans", Arial, sans-serif;
 	font-size: 70px;
-	font-weight: 700;
+	font-weight: 300;
 	
 	text-align: right;
 	margin: 0;
