@@ -373,6 +373,13 @@ ul li {
 	font-size: 18px;
 }
 
+.footer-text h3 {
+	
+	color: #fff;
+	font-family: "Lato", Arial, sans-serif;
+	font-size: 30px;
+}
+
 .banner {
 	background-image: url(../images/BG_Long.jpg);
 	background-position: center;
@@ -385,6 +392,20 @@ ul li {
 
 
 }
+
+.banner-other {
+	background-color: #000;
+	background-position: center;
+	background-repeat: no-repeat;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	min-height: 750px;
+
+
+}
+
 .banner-text {
 	margin-top: 38%;
 	color: #fff;

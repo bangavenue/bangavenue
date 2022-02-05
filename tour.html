@@ -19,19 +19,19 @@
 
 <body style="background-color:black;">
 <!-- header section -->
-<section class="banner" role="banner" id="banner">
-  <header id="header">
-    <div class="header-content"> <span class="logo"><img src="images/BG_Logo.png" alt="Bang Avenue"></a></span>
-      <nav class="navigation" role="navigation">
-        <ul class="primary-nav">
-		  <li><a href="#banner">Home</a></li>
-          <li><a href="sobre.html">Sobre</a></li>
-		  <li><a href="https:\\bangavenue.bandcamp.com\">Álbuns</a></li>
-          <li><a href="tour.html">Tour 2022</a></li>
-        </ul>
-      </nav>
-      
-  </header>
+<section class="banner-other" role="banner-other" id="banner">
+	<header id="header">
+		<div class="header-content"> <span class="logo"><img src="images/BG_Logo.png" alt="Bang Avenue"></a></span>
+		  <nav class="navigation" role="navigation">
+			<ul class="primary-nav">
+			  <li><a href="index.html">Home</a></li>
+			  <li><a href="sobre.html">Sobre</a></li>
+			  <li><a href="https:\\bangavenue.bandcamp.com\">Álbuns</a></li>
+			  <li><a href="tour.html">Tour 2022</a></li>
+			</ul>
+		  </nav>
+		  
+	  </header>
 <!-- intro section --> 
 
 <!-- our team section -->
@@ -79,6 +79,49 @@
 	</div>
  </section>
 
+ <footer class="footer">
+	<!--<div class="action-lage"></div>-->
+	<div class="container-fluid">
+		<div id="map-row" class="row">
+			<div class="widget_area">
+				<div class="col-md-4">
+					<div class="footer-text">
+						<h1 class="unselectable">MGMT & BOOKING</h1>
+						<h2>bangavenue@gmail.com</h2>
+					</div><!-- End off widget item -->
+				</div><!-- End off col-md-3 -->
+  
+				<div class="col-md-4">
+				  <div class="footer-text text-center">
+					  <h1>SOCIALS</h1>
+					  <ul class="list-inline m-top-20 unselectable">
+						<li><a href="www.facebook.com/safelanetech/"><i class="fa fa-facebook" style="font-size:18px;color:white"></i></a></li>
+						<li><a href="www.instagram.com/bang.avenue/"><i class="fa fa-instagram" style="font-size:18px;color:white"></i></a></li>
+						<li><a href="https://www.youtube.com/channel/UCX3npb03dnYz2XppiMFGPUg"><i class="fa fa-youtube" style="font-size:18px;color:white"></i></a></li>
+						<li><a href="www.bangavenue.bandcamp.com/"><i class="fa fa-bandcamp" style="font-size:18px;color:white"></i></a></li>
+						<li><a href="https://open.spotify.com/artist/6bU4eNYNQoDAfxrmW0mzp6"><i class="fa fa-spotify" style="font-size:18px;color:white"></i></a></li>
+						<li><a href="https://soundcloud.com/bangavenue"><i class="fa fa-soundcloud" style="font-size:18px;color:white"></i></a></li>
+					</ul>
+				  </div><!-- End off widget item -->
+			  </div><!-- End off col-md-3 -->
+  
+			  <div class="col-md-4">
+				<div class="footer-text text-right" style="margin-top: 10px;">
+				 <style>
+					a:hover {
+					color: purple;
+					}
+  
+				  </style>
+				  <a class="unselectable" href="https://bangavenue.bandcamp.com/follow_me">NEWSLETTER</a>
+				  
+				</div><!-- End off widget item -->
+			</div><!-- End off col-md-3 -->
+				
+			</div>
+		</div>
+	</div>
+  </footer>
 
 <!-- JS FILES --> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
@@ -90,95 +133,8 @@
 <script src="js/main.js"></script> 
 <script type="text/javascript" src="js/jquery.contact.js"></script> 
 
-<script type="text/javascript" src="jPlayer-2.9.2/dist/jplayer/jquery.jplayer.min.js"></script>
-<script type="text/javascript" src="jPlayer-2.9.2/dist/add-on/jplayer.playlist.min.js"></script> 
 <script type="text/javascript">
-//<![CDATA[
-$(document).ready(function(){
- 
-	new jPlayerPlaylist({
-		jPlayer: "#jquery_jplayer_2",
-		cssSelectorAncestor: "#jp_container_2"
-	}, [
-		{
-			title:"Cro Magnon Man",
-			mp3:"http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
-			oga:"http://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg"
-		},
-		{
-			title:"Your Face",
-			mp3:"http://www.jplayer.org/audio/mp3/TSP-05-Your_face.mp3",
-			oga:"http://www.jplayer.org/audio/ogg/TSP-05-Your_face.ogg"
-		},
-		{
-			title:"Cyber Sonnet",
-			mp3:"http://www.jplayer.org/audio/mp3/TSP-07-Cybersonnet.mp3",
-			oga:"http://www.jplayer.org/audio/ogg/TSP-07-Cybersonnet.ogg"
-		},
-		{
-			title:"Tempered Song",
-			mp3:"http://www.jplayer.org/audio/mp3/Miaow-01-Tempered-song.mp3",
-			oga:"http://www.jplayer.org/audio/ogg/Miaow-01-Tempered-song.ogg"
-		},
-		{
-			title:"Hidden",
-			mp3:"http://www.jplayer.org/audio/mp3/Miaow-02-Hidden.mp3",
-			oga:"http://www.jplayer.org/audio/ogg/Miaow-02-Hidden.ogg"
-		},
-		{
-			title:"Lentement",
-			free:true,
-			mp3:"http://www.jplayer.org/audio/mp3/Miaow-03-Lentement.mp3",
-			oga:"http://www.jplayer.org/audio/ogg/Miaow-03-Lentement.ogg"
-		},
-		{
-			title:"Lismore",
-			mp3:"http://www.jplayer.org/audio/mp3/Miaow-04-Lismore.mp3",
-			oga:"http://www.jplayer.org/audio/ogg/Miaow-04-Lismore.ogg"
-		},
-		{
-			title:"The Separation",
-			mp3:"http://www.jplayer.org/audio/mp3/Miaow-05-The-separation.mp3",
-			oga:"http://www.jplayer.org/audio/ogg/Miaow-05-The-separation.ogg"
-		},
-		{
-			title:"Beside Me",
-			mp3:"http://www.jplayer.org/audio/mp3/Miaow-06-Beside-me.mp3",
-			oga:"http://www.jplayer.org/audio/ogg/Miaow-06-Beside-me.ogg"
-		},
-		{
-			title:"Bubble",
-			free:true,
-			mp3:"http://www.jplayer.org/audio/mp3/Miaow-07-Bubble.mp3",
-			oga:"http://www.jplayer.org/audio/ogg/Miaow-07-Bubble.ogg"
-		},
-		{
-			title:"Stirring of a Fool",
-			mp3:"http://www.jplayer.org/audio/mp3/Miaow-08-Stirring-of-a-fool.mp3",
-			oga:"http://www.jplayer.org/audio/ogg/Miaow-08-Stirring-of-a-fool.ogg"
-		},
-		{
-			title:"Partir",
-			free: true,
-			mp3:"http://www.jplayer.org/audio/mp3/Miaow-09-Partir.mp3",
-			oga:"http://www.jplayer.org/audio/ogg/Miaow-09-Partir.ogg"
-		},
-		{
-			title:"Thin Ice",
-			mp3:"http://www.jplayer.org/audio/mp3/Miaow-10-Thin-ice.mp3",
-			oga:"http://www.jplayer.org/audio/ogg/Miaow-10-Thin-ice.ogg"
-		}
-	], {
-		swfPath: "../../dist/jplayer",
-		supplied: "oga, mp3",
-		wmode: "window",
-		useStateClassSkin: true,
-		autoBlur: false,
-		smoothPlayBar: true,
-		keyEnabled: true
-	});
-});
-//]]>
+
 </script>
 </body>
 </html>
