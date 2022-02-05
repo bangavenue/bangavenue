@@ -847,7 +847,7 @@ ul.list-default li {
 .tour-info a {
 	color: #fff;
 	font-size: 14px;
-	background: #000;
+	background: rgb(97, 2, 134);
 	padding: 4px 12px;
 	border-radius: 4px;
 }
