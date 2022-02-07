@@ -780,15 +780,41 @@ ul.list-default li {
 	z-index: 100;
 }
 
-
-#tours {
+#about {
 	/*background: #170125;
 	padding: 80px 0px 0;
 	display: table;
 	margin: 0 auto;
 	width: 100%;
 	color: #fff;*/
-	background-image: url(../images/luzes.JPG);
+	background-image: url(../images/BG_back.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	min-height: 750px;
+}
+#about p {
+	color: #fff;
+	font-size: 25px;
+	letter-spacing: 3px;
+	font-weight: 250;
+	line-height: 30px;
+}
+#about h6 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 45px;
+	letter-spacing: 5px;
+	font-weight: 400;
+	margin: 15px 15px 15px;
+}
+
+
+#tours {
+	background-image: url(../images/tour_back.jpg);
 	background-position: center top;
 	background-repeat: no-repeat;
 	-moz-background-size: cover;
@@ -990,7 +1016,7 @@ ul.list-default li {
 	color: rgba(255, 255, 255, 0.25);
 }
 .footer a {
-	color: rgba(255, 255, 255, 0.50);
+	color: #fff;
 }
 .footer a:hover {
 	color: #e84545;
