@@ -2,8 +2,8 @@
 
 @font-face {
     font-family: 'Quikhand';
-    src: url('quikhand-webfont.woff2') format('woff2'),
-         url('quikhand-webfont.woff') format('woff');
+    src: url('../fonts/quikhand-webfont.woff2') format('woff2'),
+         url('../fonts/quikhand-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -11,8 +11,8 @@
 
 @font-face {
     font-family: 'Lato';
-    src: url('lato-light-webfont.woff2') format('woff2'),
-         url('lato-light-webfont.woff') format('woff');
+    src: url('../fonts/lato-light-webfont.woff2') format('woff2'),
+         url('../fonts/slato-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
